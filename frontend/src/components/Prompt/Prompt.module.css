@@ -1,0 +1,46 @@
+.wrapper {
+  width: 100%;
+  background: rgb(20, 20, 20);
+  padding: 12px 20px;
+  border-radius: 20px;
+}
+
+.wrapper:focus-within {
+  border: 1px solid rgb(40, 40, 40);
+}
+
+.wrapper .input {
+  width: 100%;
+  color: white;
+  font-size: 18px;
+  line-height: 1.5;
+  max-height: calc(18px * 1.5 * 8);
+  field-sizing: content;
+}
+
+.wrapper .bottom {
+  margin-top: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.wrapper .bottom .primary-btn,
+.wrapper .bottom .secondary-btn {
+  width: 40px;
+  height: 40px;
+  padding: 4px;
+  border-radius: 50%;
+}
+
+.wrapper .bottom .primary-btn {
+  background: white;
+}
+
+.wrapper .bottom .primary-btn:hover {
+  background: rgb(230, 230, 230);
+}
+
+.wrapper .bottom .secondary-btn:hover {
+  background: rgb(40, 40, 40);
+}

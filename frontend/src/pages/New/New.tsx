@@ -1,3 +1,10 @@
+import Prompt from "../../components/Prompt/Prompt";
+import styles from "./New.module.css";
+
 export default function New() {
-    return <h1>New</h1>
+  return (
+    <div className={styles["wrapper"]}>
+      <Prompt />
+    </div>
+  );
 }

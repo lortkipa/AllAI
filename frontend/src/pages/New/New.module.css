@@ -1,0 +1,11 @@
+.wrapper {
+    margin: auto;
+    width: 100%;
+    max-width: 800px;
+    height: 100dvh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: end;
+    padding: 8px;
+}
