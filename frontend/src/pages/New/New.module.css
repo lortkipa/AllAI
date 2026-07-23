@@ -5,7 +5,14 @@
     height: 100dvh;
     display: flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: end;
+    justify-content: space-between;
+    gap: 80px;
     padding: 8px;
+    position: relative;
+}
+
+.messages {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
 }
