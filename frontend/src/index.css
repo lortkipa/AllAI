@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+textarea,
+input,
+button {
+  border: none;
+  background: none;
+}
+
+textarea,
+input {
+    outline: none;
+}
+
+textarea {
+  resize: none;
+}
+
+button {
+  cursor: pointer;
+}
