@@ -1,7 +1,14 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+
+	"github.com/lortkipa/allai/backend/server"
+)
 
 func main() {
-	fmt.Println("Hello World")
+	err := server.Start("8080")
+	if err != nil {
+		fmt.Println(err)
+	}
 }
