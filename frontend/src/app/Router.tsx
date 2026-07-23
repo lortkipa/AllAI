@@ -1,4 +1,6 @@
 import { createBrowserRouter, redirect } from "react-router";
+import New from "../pages/New/New";
+import Error from "../pages/Error/Error";
 
 export let router = createBrowserRouter([
   {
@@ -7,10 +9,10 @@ export let router = createBrowserRouter([
   },
   {
     path: "/new",
-    element: <h1>New</h1>,
+    element: <New />,
   },
   {
     path: "*",
-    element: <h1>Error</h1>,
+    element: <Error />,
   },
 ]);
